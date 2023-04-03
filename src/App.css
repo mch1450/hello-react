@@ -28,6 +28,38 @@
   color: #61dafb;
 }
 
+.App-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.App-table td{
+  padding: 12px;
+  background-color: #fff;
+  color: #282c34;
+}
+
+.App-table th {
+  padding: 12px;
+}
+
+.App-table th {
+  font-weight: bold;
+  text-align: left;
+  background-color: #bc8416;
+  color: white;
+}
+
+button {
+  background-color:#fff;
+  border-radius:15px; 
+  padding:15px;
+}
+
+button:hover{
+  opacity: .9;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
